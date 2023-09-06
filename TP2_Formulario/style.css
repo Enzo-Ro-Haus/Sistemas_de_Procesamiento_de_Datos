@@ -1,0 +1,118 @@
+@import url(http://meyerweb.com/eric/tools/css/reset/);
+/*Pulir*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+#datos_personales {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#datos_personales div {
+    display: flex;
+    flex-direction: column row;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+#idioma_niveles {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+#idiomas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#idiomas div {
+    width: 50%;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#niveles {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+h5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 25%;
+    padding: 0;
+}
+
+#niveles div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#botones {
+    margin-top: 10px;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    height: 50px;
+    width: 20%;
+    margin: 5px;
+    background-color: rgb(98, 197, 236);
+    color: black;
+    border-radius: 3px;
+    border: 1px solid black;
+}

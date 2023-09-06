@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang=es>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario Carga de datos</h1>
+    <form action="https://validator.w3.org/" target="_blank" method="post">
+        <div id="datos_personales">
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido">
+            </div>
+            <div><label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="dni">Nro DNI:</label>
+                <input type="number" id="dni">
+            </div>
+            <div><label for="fecha de nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="nacimiento">
+            </div>
+            <div>
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" id="domicilio">
+            </div>
+            <div>
+                <label for="localidad">Localidad:</label>
+                <input type="text" id="localidad">
+            </div>
+        </div>
+        <h2>Idiomas que conoce</h2>
+        <h5>Nivel de conocimiento</h5>
+        <div id="idioma_niveles">
+            <div id="idiomas">
+                <div><input type="checkbox" name="idiomas" id="box1">
+                    <label for="box1">Español</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="idiomas" id="box2">
+                    <label for="box2">Ingles</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="idiomas" id="box3">
+                    <label for="box3">Frances</label>
+                </div>
+                <div><input type="checkbox" name="idiomas" id="box4">
+                    <label for="box4">Chino</label>
+                </div>
+            </div>
+            
+            <div id="niveles">
+                <div><label for="nivel de conocimiento">0-----50-----100</label>
+                    <meter id="español" min="0" max="100" value="10" low="30" high="75"></meter>
+                </div>
+                <div><label for="nivel de conocimiento">0-----50-----100</label>
+                    <meter id="ingles" min="0" max="100" value="10" low="30" high="75"></meter>
+                </div>
+                <div><label for="nivel de conocimiento">0-----50-----100</label>
+                    <meter id="frances" min="0" max="100" value="10" low="30" high="75"></meter></div>
+                <div><label for="nivel de conocimiento">0-----50-----100</label>
+                    <meter id="chino" min="0" max="100" value="10" low="30" high="75"></meter>
+                </div>
+            </div>
+        </div>
+
+        <div id="botones">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
